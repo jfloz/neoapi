@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Neo API Demo</title>
+
+	<script src="libraries/p5.js"></script>
+	<script src="libraries/p5.dom.js"></script>
+	<script src="libraries/p5.sound.js"></script>
+	<script src="sketch.js"></script>
+
+	<style>
+		/* body {
+			margin:0;
+			padding:0;
+			overflow: hidden;
+		} */
+		body {
+			width: 50%;
+			margin: 10;
+			background-color: #DDD;
+			position: relative;
+			font: bold 14px "Courier New";
+		}
+		h1 {
+			margin: 0;
+			padding: .5em;
+		}
+		#submit {
+        border-width: 0;
+        margin: 0;
+        font: bold 16px "Courier New";
+        cursor: pointer;
+        background-color: Black;
+        color: #FFF;
+    }
+		canvas {
+			margin:auto;
+		}
+	</style>
+</head>
+<h1>Neo Api Demo</h1>
+<body>
+	<p>
+		Employee Name: <input id="name">
+		<br/>
+		Employee ID: <input id="emp_id">
+		<br/>
+		<button id="submit">Add Employee</button>
+		<br/>
+	</p>
+</body>
+</html>

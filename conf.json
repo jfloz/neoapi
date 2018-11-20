@@ -1,0 +1,6 @@
+{
+  "neo_uri": "bolt://localhost:7687",
+  "neo_username": "neo4j",
+  "neo_password": "jeo4j",
+  "app_port":3000
+}
