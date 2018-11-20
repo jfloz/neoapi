@@ -42,7 +42,9 @@ function getEmployees(request,response){
 	response.send(output);
   // on application exit:
   driver.close();
-})
+}).catch((err)=>{
+	throw new Error("something is wrong");
+});
 }
 
 app.get('/add_employee/:name/:id',addEmployee);
@@ -68,6 +70,8 @@ function addEmployee(request,response){
 		response.send(reply);
   	// on application exit:
   	driver.close();
+}).catch((err)=>{
+	throw new Error("something is wrong");
 });
 }
 
