@@ -54,13 +54,17 @@ node server.js
 
 
 ## APIs
-#ADD Employee Given employee_name and emp_id
+*ADD Employee Given employee_name and emp_id*
+
 INPUT- HTTP GET ../add_employee/employee_name/emp_id
 OUTPUT- JSON confirmation
 Example
 curl "http://localhost:3000/add_employee/Jaime/8"
 
-#RETURN ALL Employees
+
+
+*RETURN ALL Employees*
+
 INPUT- HTTP GET ../employees
 OUPUT- JSON
 curl "http://localhost:3000/employees"
