@@ -18,43 +18,32 @@ sudo apt-add-repository ppa:webupd8team/java
 sudo apt-get update
 sudo apt-get install oracle-java8-installer
 ```
-Neo4j Database
-[Intall](https://neo4j.com/docs/operations-manual/current/installation)
+[Neo4j Database installation](https://neo4j.com/docs/operations-manual/current/installation)
 ```
 cd $NEO4J_HOME
 ./bin/neo4j start
 ```
 Open browser at http://localhost:7474
   -change default password
-NOTE: to change INITIAL password from command line:
-```./bin/neo4j stop
-   ./bin/neo4j-admin set-initial-password <newpassword>
-   ./bin/neo4j start
-```
+
 Neo4j Bolt driver
 The neo4j driver should be availabe at
 ```
 bolt://localhost:7687
 ```
 
-Nodejs
-[Node](https://nodejs.org/en/download/)
-```
-sudo apt-get install nodejs
-```
-npm
-```
-sudo apt-get install npm
-```
+[Install Nodejs](https://nodejs.org/en/download/)
+
 
 ### Installing
 
 A step by step series of examples that tell you how to get a development env running
-Clone repository
-cd to folder
 ```
+git clone https://github.com/jfloz/neoapi.git
+cd neoapi
 npm install
 ```
+npm will install neo4j-driver and expressjs
 
 Open conf.json to review link to neo4j and credentials
 
@@ -106,8 +95,9 @@ npm
 sudo apt-get install npm
 ```
 Clone repository
-cd to folder
 ```
+git clone https://github.com/jfloz/neoapi.git
+cd neoapi
 npm install
 ```
 
@@ -117,11 +107,12 @@ Start node server
 ```
 node server.js
 ```
-Simple Single Page App
-http://ec2-18-219-194-50.us-east-2.compute.amazonaws.com:3000/
+
 
 
 ##UI
+Simple Single Page App
+http://ec2-18-219-194-50.us-east-2.compute.amazonaws.com:3000/
 Enter Employee name
 Enter Employee ID
 Click Add Employee Button
