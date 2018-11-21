@@ -136,7 +136,12 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## other links
 (https://github.com/neo4j/neo4j-javascript-driver/blob/1.7/examples/neo4j.html)
+
 (https://tbgraph.wordpress.com/)
+
 (https://neo4j.com/graphgist/movie-recommendations-with-k-nearest-neighbors-and-cosine-similarity)
+
 (https://neo4j.com/docs/graph-algorithms/current/algorithms/similarity-cosine/)
+
 (https://neo4j.com/developer/javascript/)
+
